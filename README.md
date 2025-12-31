@@ -87,7 +87,7 @@ where:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -135,7 +135,7 @@ result = model.analogy('king', 'man', 'woman')
 
 ---
 
-## 📊 Implementation Details
+## Implementation Details
 
 ### Architecture
 
@@ -179,7 +179,7 @@ Why 0.75?
 
 ---
 
-## 🔬 Why This Works
+## Why This Works
 
 ### Connection to PMI
 
@@ -220,7 +220,7 @@ vqueen - vking ≈ vwoman - vman
 
 ---
 
-## 🎓 Educational Components
+## Educational Components
 
 ### 1. Complete Mathematical Derivation
 
@@ -237,7 +237,7 @@ Every step from probability theory to working code:
 No hidden abstractions:
 ```python
 def _update_embeddings(self, center_idx, context_idx):
-    """Manual SGD update with explicit gradients."""
+    """ Manual SGD update with explicit gradients."""
     v_c = self.V[center_idx]
     u_o = self.U[context_idx]
     
@@ -286,7 +286,7 @@ For production use on large corpora, consider:
 
 ---
 
-## 🧪 Validation
+## Validation
 
 ### Intrinsic Evaluation
 
@@ -306,7 +306,7 @@ Use learned embeddings for:
 
 ---
 
-## 📝 Limitations & Extensions
+## Limitations & Extensions
 
 ### Current Limitations
 
@@ -336,7 +336,7 @@ Use learned embeddings for:
 
 ---
 
-## 📚 References
+## References
 
 ### Original Papers
 
@@ -356,7 +356,7 @@ Use learned embeddings for:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Areas of interest:
 
@@ -370,7 +370,7 @@ Please maintain the principle: **every line of code must map to a mathematical o
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This implementation is inspired by:
 - The clarity of Mikolov et al.'s original papers
@@ -381,7 +381,7 @@ Special thanks to the NLP community for decades of research on distributional se
 
 ---
 
-## 💬 FAQ
+## FAQ
 
 **Q: Why implement from scratch when libraries exist?**  
 A: Understanding. You can't claim to understand Word2Vec if you can't derive and implement it.
