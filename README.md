@@ -92,8 +92,8 @@ where:
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/word2vec-from-scratch.git
-cd word2vec-from-scratch
+git clone https://github.com/Gaur-ang/Word2Vec.git
+cd Word2Vec
 pip install numpy  # That's it. No other dependencies.
 ```
 
@@ -220,26 +220,6 @@ vqueen - vking ≈ vwoman - vman
 
 ---
 
-## 📁 Project Structure
-
-```
-word2vec-from-scratch/
-├── word2vec.py          # Complete implementation
-├── README.md            # This file
-├── examples/
-│   ├── basic_usage.py   # Simple examples
-│   ├── analogy_test.py  # Analogy evaluation
-│   └── similarity.py    # Similarity benchmarks
-├── docs/
-│   ├── theory.md        # Full mathematical derivation
-│   ├── gradients.md     # Gradient derivations
-│   └── implementation.md # Code walkthrough
-└── tests/
-    └── test_word2vec.py # Unit tests
-```
-
----
-
 ## 🎓 Educational Components
 
 ### 1. Complete Mathematical Derivation
@@ -332,7 +312,7 @@ Use learned embeddings for:
 
 - **Static embeddings**: One vector per word type (no polysemy handling)
 - **No subword information**: Can't handle OOV words
-- **Context-independent**: Word order beyond window ignored
+- **Context-independent**: Word order beyond the window is ignored
 - **Single-threaded**: No parallelization
 
 ### Possible Extensions
@@ -349,7 +329,7 @@ Use learned embeddings for:
    Identify multi-word expressions (e.g., "New York")
 
 4. **Hierarchical softmax**:
-   Alternative to negative sampling using binary tree
+   Alternative to negative sampling using a binary tree
 
 5. **Contextual embeddings**:
    Use as initialization for LSTM/Transformer models
@@ -360,8 +340,8 @@ Use learned embeddings for:
 
 ### Original Papers
 
-- **Mikolov et al. (2013)**: "Efficient Estimation of Word Representations in Vector Space"
-- **Mikolov et al. (2013)**: "Distributed Representations of Words and Phrases and their Compositionality"
+- **Mikolov et al. (2013)**: "Efficient Estimation of Word Representations in Vector Space."
+- **Mikolov et al. (2013)**: "Distributed Representations of Words and Phrases and their Compositionality."
 
 ### Theoretical Analysis
 
@@ -390,12 +370,6 @@ Please maintain the principle: **every line of code must map to a mathematical o
 
 ---
 
-## 📜 License
-
-MIT License - see LICENSE file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 This implementation is inspired by:
@@ -419,22 +393,12 @@ A: No. This prioritizes educational clarity. For production, use gensim or pre-t
 A: To remove all abstractions. Every operation is explicit and traceable.
 
 **Q: What about BERT/GPT/transformers?**  
-A: Those are different models. Word2Vec is a foundational technique worth understanding deeply.
+A: Those are different models. Word2Vec is a foundational technique that is worth understanding in depth.
 
 **Q: Can I use this for my research?**  
 A: Yes (MIT license), but cite appropriately and consider using established libraries for benchmarking.
 
 ---
-
-## 📧 Contact
-
-Questions? Suggestions? Open an issue or reach out!
-
-**Remember**: If you understand Word2Vec deeply, you understand:
-- Maximum likelihood estimation
-- Matrix factorization  
-- Distributional semantics
-- The foundations of modern NLP
 
 Happy learning! 🚀
 
