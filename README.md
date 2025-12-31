@@ -8,7 +8,7 @@ This project treats Word2Vec as what it actually is: a **parametric conditional 
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - **No high-level libraries** (no gensim, no TensorFlow, no PyTorch)
 - **Every equation maps to code** - direct, traceable, explicit
@@ -400,8 +400,3 @@ A: Yes (MIT license), but cite appropriately and consider using established libr
 
 ---
 
-Happy learning! 🚀
-
----
-
-*Built with ❤️ and ∇ (gradients)*
